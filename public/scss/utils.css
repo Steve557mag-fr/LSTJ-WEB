@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.e-center {
+  justify-content: center;
+}
+
 .container {
   display: grid;
 }/*# sourceMappingURL=utils.css.map */
