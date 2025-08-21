@@ -1,0 +1,21 @@
+html {
+  padding: 15px;
+}
+
+#input {
+  width: 50vw;
+  padding: 5px;
+  margin: 5px;
+}
+
+#output {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #222;
+  color: #EEE;
+  width: 50vw;
+  height: 25vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */
