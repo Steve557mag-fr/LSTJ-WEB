@@ -11,7 +11,7 @@ socket.onerror = (err)=>{
     log("[!] <b>ERR</b>");
 };
 socket.onmessage = (message)=>{
-    message.data.text().then((txt)=>{ log(txt); });
+    message.data.text().then((txt)=>{ log( JSON.parse(txt) ); });
 };
 
 input.addEventListener('keydown',(e)=>{

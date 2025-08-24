@@ -2,6 +2,12 @@ html {
   padding: 15px;
 }
 
+#main-btn {
+  display: block;
+  width: 350px;
+  background-image: url("../../res/img/button_bg.png");
+}
+
 #input {
   width: 50vw;
   padding: 5px;
